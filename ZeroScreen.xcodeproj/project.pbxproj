@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CCB1ECC12D10C76100A2C169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB1ECA62D10C75F00A2C169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB1ECAD2D10C75F00A2C169;
+			remoteInfo = ZeroScreen;
+		};
+		CCB1ECCB2D10C76100A2C169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB1ECA62D10C75F00A2C169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB1ECAD2D10C75F00A2C169;
+			remoteInfo = ZeroScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1ECC02D10C76100A2C169 /* ZeroScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1ECCA2D10C76100A2C169 /* ZeroScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CCB1ECB02D10C75F00A2C169 /* ZeroScreen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroScreen;
+			sourceTree = "<group>";
+		};
+		CCB1ECC32D10C76100A2C169 /* ZeroScreenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroScreenTests;
+			sourceTree = "<group>";
+		};
+		CCB1ECCD2D10C76100A2C169 /* ZeroScreenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZeroScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB1ECAB2D10C75F00A2C169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECBD2D10C76100A2C169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECC72D10C76100A2C169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB1ECA52D10C75F00A2C169 = {
+			isa = PBXGroup;
+			children = (
+				CCB1ECB02D10C75F00A2C169 /* ZeroScreen */,
+				CCB1ECC32D10C76100A2C169 /* ZeroScreenTests */,
+				CCB1ECCD2D10C76100A2C169 /* ZeroScreenUITests */,
+				CCB1ECAF2D10C75F00A2C169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB1ECAF2D10C75F00A2C169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */,
+				CCB1ECC02D10C76100A2C169 /* ZeroScreenTests.xctest */,
+				CCB1ECCA2D10C76100A2C169 /* ZeroScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB1ECAD2D10C75F00A2C169 /* ZeroScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1ECD42D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreen" */;
+			buildPhases = (
+				CCB1ECAA2D10C75F00A2C169 /* Sources */,
+				CCB1ECAB2D10C75F00A2C169 /* Frameworks */,
+				CCB1ECAC2D10C75F00A2C169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CCB1ECB02D10C75F00A2C169 /* ZeroScreen */,
+			);
+			name = ZeroScreen;
+			packageProductDependencies = (
+			);
+			productName = ZeroScreen;
+			productReference = CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB1ECBF2D10C76100A2C169 /* ZeroScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1ECD72D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreenTests" */;
+			buildPhases = (
+				CCB1ECBC2D10C76100A2C169 /* Sources */,
+				CCB1ECBD2D10C76100A2C169 /* Frameworks */,
+				CCB1ECBE2D10C76100A2C169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB1ECC22D10C76100A2C169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCB1ECC32D10C76100A2C169 /* ZeroScreenTests */,
+			);
+			name = ZeroScreenTests;
+			packageProductDependencies = (
+			);
+			productName = ZeroScreenTests;
+			productReference = CCB1ECC02D10C76100A2C169 /* ZeroScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB1ECC92D10C76100A2C169 /* ZeroScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1ECDA2D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreenUITests" */;
+			buildPhases = (
+				CCB1ECC62D10C76100A2C169 /* Sources */,
+				CCB1ECC72D10C76100A2C169 /* Frameworks */,
+				CCB1ECC82D10C76100A2C169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB1ECCC2D10C76100A2C169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCB1ECCD2D10C76100A2C169 /* ZeroScreenUITests */,
+			);
+			name = ZeroScreenUITests;
+			packageProductDependencies = (
+			);
+			productName = ZeroScreenUITests;
+			productReference = CCB1ECCA2D10C76100A2C169 /* ZeroScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB1ECA62D10C75F00A2C169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CCB1ECAD2D10C75F00A2C169 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CCB1ECBF2D10C76100A2C169 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCB1ECAD2D10C75F00A2C169;
+					};
+					CCB1ECC92D10C76100A2C169 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCB1ECAD2D10C75F00A2C169;
+					};
+				};
+			};
+			buildConfigurationList = CCB1ECA92D10C75F00A2C169 /* Build configuration list for PBXProject "ZeroScreen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB1ECA52D10C75F00A2C169;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCB1ECAF2D10C75F00A2C169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB1ECAD2D10C75F00A2C169 /* ZeroScreen */,
+				CCB1ECBF2D10C76100A2C169 /* ZeroScreenTests */,
+				CCB1ECC92D10C76100A2C169 /* ZeroScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB1ECAC2D10C75F00A2C169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECBE2D10C76100A2C169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECC82D10C76100A2C169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB1ECAA2D10C75F00A2C169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECBC2D10C76100A2C169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1ECC62D10C76100A2C169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB1ECC22D10C76100A2C169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB1ECAD2D10C75F00A2C169 /* ZeroScreen */;
+			targetProxy = CCB1ECC12D10C76100A2C169 /* PBXContainerItemProxy */;
+		};
+		CCB1ECCC2D10C76100A2C169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB1ECAD2D10C75F00A2C169 /* ZeroScreen */;
+			targetProxy = CCB1ECCB2D10C76100A2C169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCB1ECD22D10C76100A2C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB1ECD32D10C76100A2C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB1ECD52D10C76100A2C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB1ECD62D10C76100A2C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCB1ECD82D10C76100A2C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeroScreen";
+			};
+			name = Debug;
+		};
+		CCB1ECD92D10C76100A2C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeroScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeroScreen";
+			};
+			name = Release;
+		};
+		CCB1ECDB2D10C76100A2C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeroScreen;
+			};
+			name = Debug;
+		};
+		CCB1ECDC2D10C76100A2C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Screen-Usage-Investigators.ZeroScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeroScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB1ECA92D10C75F00A2C169 /* Build configuration list for PBXProject "ZeroScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1ECD22D10C76100A2C169 /* Debug */,
+				CCB1ECD32D10C76100A2C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1ECD42D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1ECD52D10C76100A2C169 /* Debug */,
+				CCB1ECD62D10C76100A2C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1ECD72D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1ECD82D10C76100A2C169 /* Debug */,
+				CCB1ECD92D10C76100A2C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1ECDA2D10C76100A2C169 /* Build configuration list for PBXNativeTarget "ZeroScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1ECDB2D10C76100A2C169 /* Debug */,
+				CCB1ECDC2D10C76100A2C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB1ECA62D10C75F00A2C169 /* Project object */;
+}
