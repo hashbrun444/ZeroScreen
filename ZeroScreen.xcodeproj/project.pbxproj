@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC2A99FB2D82B24900CC1933 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CC2A99FA2D82B24900CC1933 /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CCB1ECC12D10C76100A2C169 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -22,6 +26,19 @@
 			remoteInfo = ZeroScreen;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC2A99FF2D82B24900CC1933 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2A99FB2D82B24900CC1933 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC2A99F92D82B24900CC1933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCB1ECA52D10C75F00A2C169 = {
 			isa = PBXGroup;
 			children = (
 				CCB1ECB02D10C75F00A2C169 /* ZeroScreen */,
 				CCB1ECC32D10C76100A2C169 /* ZeroScreenTests */,
 				CCB1ECCD2D10C76100A2C169 /* ZeroScreenUITests */,
+				CC2A99F92D82B24900CC1933 /* Frameworks */,
 				CCB1ECAF2D10C75F00A2C169 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +128,7 @@
 				CCB1ECAA2D10C75F00A2C169 /* Sources */,
 				CCB1ECAB2D10C75F00A2C169 /* Frameworks */,
 				CCB1ECAC2D10C75F00A2C169 /* Resources */,
+				CC2A99FF2D82B24900CC1933 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +139,7 @@
 			);
 			name = ZeroScreen;
 			packageProductDependencies = (
+				CC2A99FA2D82B24900CC1933 /* Lottie */,
 			);
 			productName = ZeroScreen;
 			productReference = CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */;
@@ -195,6 +223,9 @@
 			);
 			mainGroup = CCB1ECA52D10C75F00A2C169;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CC2A99F82D82B15400CC1933 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CCB1ECAF2D10C75F00A2C169 /* Products */;
 			projectDirPath = "";
@@ -396,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = AMYY47BCU8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = AMYY47BCU8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -552,6 +585,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC2A99F82D82B15400CC1933 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC2A99FA2D82B24900CC1933 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC2A99F82D82B15400CC1933 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CCB1ECA62D10C75F00A2C169 /* Project object */;
 }
