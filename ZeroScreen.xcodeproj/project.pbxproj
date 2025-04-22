@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CC2A99FB2D82B24900CC1933 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CC2A99FA2D82B24900CC1933 /* Lottie */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		CCB1ECC12D10C76100A2C169 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -69,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC2A99FB2D82B24900CC1933 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +134,6 @@
 			);
 			name = ZeroScreen;
 			packageProductDependencies = (
-				CC2A99FA2D82B24900CC1933 /* Lottie */,
 			);
 			productName = ZeroScreen;
 			productReference = CCB1ECAE2D10C75F00A2C169 /* ZeroScreen.app */;
@@ -426,7 +420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = AMYY47BCU8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZeroScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = AMYY47BCU8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -600,14 +594,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CC2A99FA2D82B24900CC1933 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CC2A99F82D82B15400CC1933 /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CCB1ECA62D10C75F00A2C169 /* Project object */;
 }

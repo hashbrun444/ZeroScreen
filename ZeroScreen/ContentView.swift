@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Lottie
 
 class TimerViewModel: ObservableObject {
     @Published var selectedHoursAmount = 10
@@ -384,7 +383,7 @@ struct LogView: View {
     }
 
     func calculateAndApplyScore(loggedSeconds: TimeInterval) {
-        let rawScore = (appData.screenTimeGoal - loggedSeconds + 2400) / 11
+        let rawScore = (appData.screenTimeGoal - loggedSeconds + 2400) / 11 + 180
         let roundedPoints = Int(round(rawScore))
         if appData.points + roundedPoints < 0 {
             appData.points = 0
