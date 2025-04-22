@@ -21,7 +21,7 @@ class AppData: ObservableObject {
     @AppStorage("screenTimeGoal") var screenTimeGoal: TimeInterval = 0
     @AppStorage("points") var points: Int = 0
 
-    var debugEnabled: Bool = true
+    var debugEnabled: Bool = false
 
     func debugPrintState() {
         if debugEnabled {
@@ -105,8 +105,8 @@ struct LevelProgressView: View {
     
 
     var body: some View {
-        let level = appData.points / 4000
-        let progress = Double(appData.points % 4000) / 4000.0
+        let level = appData.points / 3000
+        let progress = Double(appData.points % 3000) / 3000.0 // Level ranges
 
         VStack(spacing: 4) {
             HStack {
@@ -135,9 +135,6 @@ struct LevelProgressView: View {
                 .foregroundColor(.white.opacity(0.8))
         }
         .frame(maxWidth: .infinity)
-        .onAppear(perform: {
-            print("\(appData.points)")
-        })
     }
 }
 
@@ -310,6 +307,8 @@ struct SettingsView: View {
                         appData.points = 0
                         appData.hasSeenOnboarding = false
                         appData.objectWillChange.send()
+                        Thread.sleep(forTimeInterval: 0.025) //Changed
+                        exit(0)
                     },
                     secondaryButton: .cancel()
                 )
@@ -385,19 +384,14 @@ struct LogView: View {
     }
 
     func calculateAndApplyScore(loggedSeconds: TimeInterval) {
-        let rawScore = (appData.screenTimeGoal - loggedSeconds + 2400) / 10
+        let rawScore = (appData.screenTimeGoal - loggedSeconds + 2400) / 11
         let roundedPoints = Int(round(rawScore))
-
-        // Debug: Check points before updating
-        print("🧪 Points before update: \(appData.points)")
-        
-        // Correctly add points
-        appData.points = appData.points + roundedPoints
-        
-        appData.objectWillChange.send() // Trigger a manual update to ensure changes are reflected
-
-        // Debug: Check points after updating
-        print("🧪 Points after update: \(appData.points)")
+        if appData.points + roundedPoints < 0 {
+            appData.points = 0
+        } else {
+            appData.points = appData.points + roundedPoints
+        }
+        appData.objectWillChange.send()
     }
 }
 
@@ -430,9 +424,7 @@ struct DoneLoggingView: View {
                             .foregroundColor(.white)
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                     }.simultaneousGesture(TapGesture().onEnded {
-                        print("Now points are \(appData.points)")
                         appData.objectWillChange.send()
-                        
                     })
                 }
             }
@@ -442,12 +434,11 @@ struct DoneLoggingView: View {
 
     func scoreMessage() -> String {
         if scoreChange > 0 {
-            return "Thanks for logging, check your score! And don't use your phone for the rest of the day!"
+            return "Thanks for logging, good job on your score! And don't use your phone for the rest of the day!"
         } else if scoreChange == 0 {
             return "No changes to your score this time. Try setting a better goal tomorrow!"
         } else {
-            appData.points = 0
-            return "Uh oh! Your screen time went over. Try better next time!"
+            return "Uh oh! Your screen time went over. Use your devices less tomorrow!"
         }
     }
 }

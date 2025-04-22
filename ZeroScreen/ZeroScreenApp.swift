@@ -17,7 +17,7 @@ struct ZeroScreenApp: App {
             ContentView()
                 .environmentObject(appData)
                 .onAppear {
-                    appData.debugEnabled = true // turn this on/off as needed
+                    appData.debugEnabled = false // turn this on/off as needed
                     appData.debugPrintState()
                 }
         }
