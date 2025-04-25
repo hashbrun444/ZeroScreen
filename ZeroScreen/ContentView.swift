@@ -168,7 +168,7 @@ struct ShareButton: View {
 
     func shareImage() {
         let image = createImageWithScore(points)
-        let message = "Download ZeroScreen from example.com to compete now!"
+        let message = "Download ZeroScreen from zeroscreen.github.io to compete now!"
         
         let activityController = UIActivityViewController(activityItems: [image, message], applicationActivities: nil)
         
